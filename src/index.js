@@ -10,7 +10,7 @@ class App extends Component {
     state = initialData;
 
     onDragEnd = result => {
-
+        
     };
 
 

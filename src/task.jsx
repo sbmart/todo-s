@@ -8,6 +8,7 @@ const Container = styled.div`
     border-radius: 3px;
     margin-bottom: 8px;
     padding: 8px;
+    background-color: lightgrey;
 `;
 
 export default class Task extends Component {
