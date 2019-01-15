@@ -27,7 +27,7 @@ export default class Column extends Component {
                 <Title>{this.props.column.title}</Title>
                 <Droppable droppableId={this.props.column.id}>
                 {provided => (
-                        <TaskList 
+                        <TaskList
                         {...provided.droppableProps}
                         innerRef={provided.innerRef}
                         >
